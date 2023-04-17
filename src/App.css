@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    direction: rtl;
+    font-family:'iran' ;
+ }
+ @font-face {
+  font-family: iran;
+  src: url("./font/iran.ttf") ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .contaner  {
+    display: flex;
+    /* background-color: red; */
+    /* width: 300px; */
+    
+ }
+ .top-section{
+   display: flex;
+   padding: 30px;
+ }
+ 
+ .main2{
+  /* background-color: #eee; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  flex-direction: rtl;
+ 
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .sidebar{
+  
+     background-color: #090725;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+ }
+ .bars{
+    display: flex;
+    font-size: 25px;
+    margin:8px 50px;
+ }
+ .link{
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+    gap: 30px;
+    transition: all 0.5s;
+ }
+ .link:hover{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ transition: all 0.5s;
+ }
+ .active{
+    background-color: lightskyblue;
+    color: #000;
+ }
+ .icon, .link-text{
+  font-size: 30px;
+ }
+ .login{
+
+  /* background-color: #090725;  */
+  background-image: url(./components/img//space-galaxy-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+  
 }
+ .form-container{
+  
+   background: transparent;
+   border:  2px solid rgba(255,255,255,0.5 );
+   backdrop-filter: blur(15px);
+   border-radius: 20px;
+   max-width: 600px;
+   width: 100%;
+   height: 570px;
+   margin: 200px auto;
+   box-shadow: 0px 3px 7px 3px rgba(0,0,0,0.2 );
+   margin: 30px;
+   
+ }
+ .form-container h3{
+   text-align: center;
+   padding: 20px;
+   font-size: 30px;
+   color: #fff;
+ }
+
+  .form-grap label{
+   right:30px;
+   top: -10px;
+   position: absolute;
+   font-weight: bold;
+   font-size: 15px;
+   color: #fff;
+   margin-top: 30px;
+ }
+ .iconshow{
+   position: absolute;
+   top: 36%;
+  left: 9%;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #FFF;
+ }
+ .form-grap{
+   padding: 15px;
+   position: relative;
+   /* border: 2px solid red; */
+   margin-top: 0px;
+ }
+ .form-grap p{
+ 
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+ }
+
+ 
+ input[type =text], input[type= password]{
+   padding: 15px;
+   /* margin: 5px 5px 13px -5px; */
+   width: 90%;
+ 
+   font-size: 20px;
+   background: transparent;
+   border: 2px solid #fff; 
+    border-radius: 10px;
+   margin: 50px 7px;
+   /* border: none; */
+   outline: none;
+   color: #fff;
+ }
+ input[type = text]:focus,
+ input[type = password]:focus{
+   outline: 0;
+ }
+ 
+ button.btn{
+      color: #FFF;
+    background-color: #7367F0;
+    border-color: #7367F0;
+   width: 90%;
+   color: white;
+   border-radius: 8px;
+   cursor: pointer;
+   padding: 10px;
+   margin: 0px 30px 10px 20px;
+   /* border: none; */
+   font-size: 20px;
+ }
+ @media (max-width:1000px){
+  body{
+  background: #7367F0;
+  }
+  .sidebar{
+   display: none;
+
+} 
+  .main{
+    
+    
+  }
+  .form-container{
+    
+    /* width: 200px;
+    height: 100px; */
+    margin: 50px auto;
+  }
+ }
+ /* .conutainer{
+  max-width: 1170;
+  margin: auto;background-color: red;
+ }
+ section{
+    
+     padding: 20px;
+     direction: rtl;
+ } */
