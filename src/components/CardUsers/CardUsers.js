@@ -15,9 +15,10 @@ function CardUsers() {
             icon: <FiArrowDown />,
             title: 'Users',
             cover: 'https://img.icons8.com/external-filled-outline-icons-pause-08/1x/external-charts-business-filled-outline-icons-pause-08-3.png',
-            style: {
-                backgroundColor: 'blue',
-            },
+            color:'blue',
+            // style: {
+            //     backgroundColor: 'blue',
+            // },
 
         },
         {
@@ -26,9 +27,7 @@ function CardUsers() {
             icon: <FiArrowUp />,
             title: 'Income',
             cover: 'https://img.icons8.com/ios/100/combo-chart--v1.png',
-            style: {
-                backgroundColor: 'green',
-            },
+            color:'green',
         },
         {
             number: '2.49',
@@ -36,9 +35,7 @@ function CardUsers() {
             icon: <FiArrowUp />,
             title: 'Users',
             cover: 'https://img.icons8.com/external-filled-outline-icons-pause-08/1x/external-charts-business-filled-outline-icons-pause-08-3.png',
-            style: {
-                backgroundColor: 'yellow',
-            },
+            color:'yellow',
         },
         {
             number: '26K',
@@ -46,9 +43,8 @@ function CardUsers() {
             icon: <FiArrowDown />,
             title: 'Users',
             cover: 'https://img.icons8.com/ios/100/combo-chart--v1.png',
-            style: {
-                backgroundColor: 'pink',
-            },
+            color: 'pink',
+          
         },
     ]
     const data = [
