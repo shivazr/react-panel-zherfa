@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './Traffic.css'
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
- import {AiFillLinkedin} from 'react-icons/ai';
-
 import { BsCloudDownload} from 'react-icons/bs';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Data,  medias } from '../data';

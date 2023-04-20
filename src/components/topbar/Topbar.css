@@ -13,6 +13,7 @@ body{
     font-size: 30px;
     border-bottom: 1px solid #eee;
     color: black;
+    z-index: 999;
     /* margin: 20px auto;
     border-radius: 20px; */
 }
