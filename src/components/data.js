@@ -4,7 +4,7 @@ export const Data=[
     {
         title:"Visits",
          num:"29.703 Users (40%)",
-         percent: 10, 
+         percent: 80, 
          color: '#E44D26'
         
     },
@@ -25,7 +25,7 @@ export const Data=[
     {
         title:"users",
          num:"29.703 Users (40%)",
-         percent: 80, 
+         percent: (20, 30, 10), 
          color: '#0D5EBD' 
        
     },
