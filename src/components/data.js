@@ -88,3 +88,90 @@ export const medias=[
           icon:<AiFillLinkedin/>
         },
 ]
+
+export const clientData =[
+    {
+        day:"Monday",
+        percent: 10, 
+        color: '#3399ff',
+        percent2: 40, 
+        color2: '#e55353'
+
+    },
+    {
+        day:"Tuesday",
+        percent: 30, 
+        color: '#3399ff',
+        percent2: 60, 
+        color2: '#e55353'
+
+    },
+    {
+        day:"Wednesday",
+        percent: 40, 
+        color: '#3399ff',
+        percent2: 80, 
+        color2: '#e55353'
+
+    },
+    {
+        day:"Thursday",
+        percent: 78, 
+        color: '#3399ff',
+        percent2: 22, 
+        color2: '#e55353'
+
+    },
+    {
+        day:"Friday",
+        percent: 33, 
+        color: '#3399ff',
+        percent2: 77, 
+        color2: '#e55353'
+
+    },
+    {
+        day:"Saterday",
+        percent: 10, 
+        color: '#3399ff',
+        percent2: 40, 
+        color2: '#e55353'
+
+    },
+    {
+        day:"Sunday",
+        percent: 80, 
+        color: '#3399ff',
+        percent2: 50, 
+        color2: '#e55353'
+
+    },
+]
+
+export const socials=[
+    {
+        icon: <BsFacebook />,
+        text: 'Facebook',
+        centerSocial:'51,223 (15%)',
+        colorSocial: "green"
+    },
+    {
+        icon: <BsFacebook />,
+        text: 'Facebook',
+        centerSocial:'51,223 (15%)',
+        colorSocial: "green"
+    },
+    {
+        icon: <BsFacebook />,
+        text: 'Facebook',
+        centerSocial:'51,223 (15%)',
+        colorSocial: "green"
+    },
+    {
+        icon: <BsFacebook />,
+        text: 'Facebook',
+        centerSocial:'51,223 (15%)',
+        colorSocial: "green"
+    },
+
+]

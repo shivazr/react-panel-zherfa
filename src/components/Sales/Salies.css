@@ -10,7 +10,7 @@ section{
 }
 .wrapper{
   background-color: #fff;
-   border: 1px solid red;
+   /* border: 1px solid red; */
     max-width: 1420px;
     width: 100%;
     margin: auto;
@@ -57,3 +57,96 @@ section{
 .item-clients:nth-child(4){
     border-right:5px solid #f9b115;
 }
+.progress-client{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px  auto;
+}
+.container-client{
+ padding: 0px;
+ display: flex;
+ width: 100%;
+}
+.left-item{
+    width: 50%;
+    /* border: 1px solid rgb(76, 151, 26); */
+    display: flex;
+    align-items: center;
+   
+}
+.right-item{
+    width: 50%;
+    /* border: 1px solid #3399ff; */
+   
+}
+.left-item-content{
+ padding: 10px;
+ display: block;
+   width: 100%;
+}
+.item-client{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 20px;
+}
+.item1{
+flex: 1;
+  
+
+}
+.item1 P{
+    color: #4f5d73;
+}
+.item2{
+flex: 7;
+}
+
+.progress-area-client{
+   
+  margin-bottom: 10px;
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #ddd;
+    
+   }
+   .progress-bar-client{
+    width: 50%;
+    background-color: #f9b115;
+    margin: 0px;
+     height: 5px;
+     border-radius: 10px;
+   }
+   .gender , .social{
+    padding: 15px;
+   } 
+   .top-ma{
+    display: flex;
+    justify-content: space-between;
+   }
+   .icon-male{
+    display: flex;
+    padding: 5px;
+    color: #4f5d73;
+    font-size: 18px;
+   }
+   .icon-m{
+    margin-left: 5px;
+   color: red;
+   font-size: 20px;
+   }
+   @media (max-width:800px) {
+   
+   .clients , .container-client{
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .left-item , .right-item{
+    width: 100%;
+   }
+   .item2{
+    flex: 5;
+   }
+   }
+  

@@ -22,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "live-server public --host=0.0.0.0 --port=3000 --middleware=./disable-browser-cache.js"
   },
   "eslintConfig": {
     "extends": [
