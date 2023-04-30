@@ -1,18 +1,25 @@
-import { AiOutlineSearch } from "react-icons/ai"
-import { BsFillPersonFill } from "react-icons/bs"
-import { AiOutlineBars, AiOutlineMail, AiOutlineBell } from "react-icons/ai"
 
+import { BsFillPersonFill } from "react-icons/bs"
+import { AiOutlineBars, AiOutlineMail, AiOutlineBell, AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
 import "./Topbar.css"
+import { useState } from "react"
 
 function Topbar() {
+  const [click, setClick] = useState(false)
+  const handleClick = () => setClick(!click)
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
         <div className="topbarLinks">
-          <span className="topbarLink">Home</span>
-          <span className="topbarLink">Home</span>
-          <span className="topbarLink">Home</span>
-          <span className="topbarLink">Home</span>
+          <div className='menu-icon' onClick={handleClick}>
+            {click ? <AiOutlineClose /> : <AiOutlineMenu />}</div>
+          <div className={click ? 'nav-menu active' : 'nav-menu'}>
+            <span className="topbarLink">Home</span>
+            <span className="topbarLink">about</span>
+            <span className="topbarLink">contact</span>
+            <span className="topbarLink">home</span>
+          </div>
+
         </div>
         {/* <span className="logo">LOGO</span> */}
       </div>

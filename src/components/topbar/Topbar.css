@@ -65,8 +65,15 @@ margin-right: 10px;
 .topbarLink{
     margin-right : 10px;
     font-size: 20px;
-    cursor: pointer;
+    cursor: pointer; 
 }
+.menu-icon {
+    display: none;
+   
+  }
+  .nav-menu{
+
+  }
 .topbarIcons{
     display: flex;
     align-items: center;
@@ -94,5 +101,47 @@ margin-right: 10px;
     /* body{
         background-color: red;
     } */
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        position: absolute;
+        top: 80px;
+        right: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+      .nav-menu.active {
+        background: #242222;
+        right: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+      
+      }
+      .topbarLink{
+        text-align: right;
+       padding: 20px 10px ;
+      /* width: 90%; */
+      color: #fff;
+      display: table;
+   
+      }
+      .topbarLink:hover {
+        /* background-color: #fff; */
+        color: #0aa812;
+        /* border-radius: 0; */
+      }
+    
    
 }
